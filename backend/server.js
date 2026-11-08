@@ -9,10 +9,6 @@ import fsPromises from "fs/promises";
 import path from "path";
 import os from "os";
 
-// If you're on Node 18+ (Render default), global fetch exists.
-// If not, uncomment this line and `npm i node-fetch`:
-// import fetch from "node-fetch";
-
 dotenv.config();
 
 const app = express();
